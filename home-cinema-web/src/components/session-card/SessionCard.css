@@ -1,0 +1,24 @@
+.session-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eee;
+    box-shadow: 2px 8px 8px #eee;
+    margin: 1em;
+}
+  
+.session-card .session-date {
+    display: flex;
+    flex-direction: column;
+    background-color: #ce0a3b;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+  
+.session-card .session-movie-info {
+    padding: 1em;
+}
+  
+.session-card .session-movie-info .sinopsis {
+    text-align: justify;
+}
